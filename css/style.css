@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header h1{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.initial-page h1{
+    text-align: left;
+}
+
+body{
+    font-size: large;
+    font-style: italic;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+nav select{
+    font-size: medium;
+    font-style: italic;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    width: 400PX;
+    height: 40PX;
+}
+footer{
+    background-color: whitesmoke;
+}
+footer div img{
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    margin-top: 10px;
+    font-size: large;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight:300;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: whitesmoke;
+}
+
+nav div{
+    margin-top: 30px;
+}
+
+.generos{
+    width: 1230px;
+}
+
+.search-bar{
+    text-align: right;
+}
+.search-bar img{
+    height: 20px;
+    width: 20px;
+}
+
+.login{
+    font-size: 20px;
+
+}
+#Remember-my-Selection{
+    margin-top: 20px;;
+    width: 20px;
+    height: 20px;
+}
+
+.error{
+    color: red;
+}
+
