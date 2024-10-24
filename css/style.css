@@ -9,6 +9,10 @@ header h1{
     color: black;
     font-size: 60px;
     text-align: center;
+    font-weight: bold;
+}
+a{
+    text-decoration: none !important;
 }
 
 .initial-page h1{
@@ -16,12 +20,11 @@ header h1{
 }
 
 body{
-    font-size: large;
-    font-style: italic;
-    font-family: "Playwrite DE Grund", cursive;
+    font-size: large !important; 
+    font-style: italic  !important;
+    font-family: "Playwrite DE Grund", cursive !important;
     font-optical-sizing: auto;
-    font-weight:300;
-    font-style: normal;
+    font-weight:300 !important;
     padding-top: 10px;
     padding-left: 8px;
     padding-bottom: 8px;
@@ -43,9 +46,6 @@ footer div img{
     height: 100px;
 }
 
-a{
-    text-decoration: none;
-}
 
 button{
     margin-top: 10px;
@@ -76,6 +76,9 @@ nav div{
 
 .login{
     font-size: 20px;
+}
+.login input{
+    border: 1px solid black;
 
 }
 #Remember-my-Selection{
@@ -87,4 +90,18 @@ nav div{
 .error{
     color: red;
 }
+.error--text_area{
+    border-color: red !important;
+
+}
+.login div{
+    padding-right: 30%;
+}
+
+
+
+
+
+
+
 
