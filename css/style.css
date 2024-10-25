@@ -116,17 +116,22 @@ nav div{
     background-color: wheat;
 }
 
+.shopping-page{
+    padding-top: 5%;
+}
 .container-article{
     padding-top: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     background-color: gainsboro;
     padding-left: 5%;
     padding-right: 5%;
 }
 
+.box button{
+    margin-bottom: 5%;
+}
 
 #box1 img{
     height: 410px;
@@ -178,6 +183,12 @@ nav div{
         font-style:italic;
         font-weight: bold;
     }
+
+    .box h5{
+        font-size: small;
+        font-style:italic;
+        font-weight: bold;
+    }
     
     #box2 img{
         height: 250px;
@@ -211,11 +222,11 @@ nav div{
         width: 110px;
     }
     #box1 button{
-        height: 210px;
+        height: 215px;
         width: 120px;
     }
     .box h4{
-        font-size: x-small;
+        font-size: small;
         font-style:italic;
         font-weight: bold;
     }
@@ -225,7 +236,7 @@ nav div{
         width: 110px;
     }
     #box2 button{
-        height: 210px;
+        height: 215px;
         width: 120px;
     }
     #box3 img{
@@ -233,7 +244,7 @@ nav div{
         width: 110px;
     }
     #box3 button{
-        height: 210px;
+        height: 215px;
         width: 120px;
     }
 }
