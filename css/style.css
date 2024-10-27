@@ -4,7 +4,30 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: gainsboro;
+    border: 1px solid black;
+}
 
+.main-header{
+    padding-bottom: 1%;
+    background-color: wheat;
+}
+
+
+main{
+    background-color: wheat;
+
+}
+
+#dropdown{
+    width: 50vw;
+}
+
+#simple-border{
+    border: 1px solid black;
+
+}
 header h1{
     color: black;
     font-size: 60px;
@@ -25,8 +48,7 @@ body{
     font-family: "Playwrite DE Grund", cursive !important;
     font-optical-sizing: auto;
     font-weight:300 !important;
-    padding-top: 10px;
-    padding-bottom: 8px;
+    background-color: wheat !important ;
 }
 nav select{
     font-size: medium;
@@ -39,11 +61,13 @@ nav select{
     height: 40PX;
 }
 footer{
-    background-color: whitesmoke;
+    background-color: wheat;
 }
 footer div img{
-    height: 100px;
+    height: 5vh;
+    width: 5vh;
 }
+
 
 
 button{
@@ -70,7 +94,6 @@ nav div{
     align-items: baseline;
     justify-content: end;
     margin-right: 2%;
-    margin-bottom: 2%;
 }
 
 .search-bar--area{
