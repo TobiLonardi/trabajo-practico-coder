@@ -53,7 +53,11 @@ body{
     font-optical-sizing: auto;
     font-weight:300 !important;
     background-color: wheat !important ;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 10em;
 }
+
 nav select{
     font-size: medium;
     font-style: italic;
@@ -68,7 +72,9 @@ footer{
     background-color: rgb(248, 219, 166);
     margin-top: 5%;
     border: 2px solid black;
-
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 footer div img{
     height: 5vh;
@@ -177,43 +183,24 @@ nav div{
     background-color: gainsboro;
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 5%;
 }
 
 
 
 .box button{
     margin-bottom: 5%;
+    height: 500px;
+    width: 350px;
 }
 
 .box button img{
     border: 2px black solid;
+    height: 410px;
+    width: 320px;
 }
 
-#box1 img{
-    height: 410px;
-    width: 320px;
-}
-#box1 button{
-    height: 500px;
-    width: 350px;
-}
 
-#box2 img{
-    height: 410px;
-    width: 320px;
-}
-#box2 button{
-    height: 500px;
-    width: 350px;
-}
-#box3 img{
-    height: 410px;
-    width: 320px;
-}
-#box3 button{
-    height: 500px;
-    width: 350px;
-}
 .box__genres button{
     width: 45vw;
     background-color: wheat;
@@ -253,43 +240,32 @@ nav div{
 }
 
 @media (max-width:1200px){
-    
-    #box1 img{
+    .box button{
+        height: 335px;
+        width: 200px;
+    }
+    .box button img{
         height: 250px;
         width: 170px;
     }
-    #box1 button{
-        height: 300px;
-        width: 200px;
-    }
+
     .box h4{
-        font-size: small;
+        font-size: medium;
         font-style:italic;
         font-weight: bold;
+        padding-bottom: 2%;
+        margin-bottom: 2%;
     }
 
     .box h5{
-        font-size: small;
+        font-size: medium;
         font-style:italic;
         font-weight: bold;
+        padding-bottom: 2%;
+
     }
     
-    #box2 img{
-        height: 250px;
-        width: 180px;
-    }
-    #box2 button{
-        height: 300px;
-        width: 200px;
-    }
-    #box3 img{
-        height: 250px;
-        width: 180px;
-    }
-    #box3 button{
-        height: 300px;
-        width: 200px;
-    }
+
     .add-basket-product img{
         width: 40vw;
     }
@@ -304,36 +280,22 @@ nav div{
     .catalog{
         width:100%;
     }
-    #box1 img{
-        height: 150px;
-        width: 110px;
-    }
-    #box1 button{
+    .box button{
         height: 215px;
         width: 120px;
     }
+    .box button img{
+        height: 150px;
+        width: 110px;
+    }
+    
     .box h4{
         font-size: small;
         font-style:italic;
         font-weight: bold;
     }
     
-    #box2 img{
-        height: 150px;
-        width: 110px;
-    }
-    #box2 button{
-        height: 215px;
-        width: 120px;
-    }
-    #box3 img{
-        height: 150px;
-        width: 110px;
-    }
-    #box3 button{
-        height: 215px;
-        width: 120px;
-    }
+    
 
     .add-basket-product img{
         width: 50vw;
