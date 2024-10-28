@@ -61,7 +61,10 @@ nav select{
     height: 40PX;
 }
 footer{
-    background-color: wheat;
+    background-color: rgb(248, 219, 166);
+    margin-top: 5%;
+    border: 2px solid black;
+
 }
 footer div img{
     height: 5vh;
