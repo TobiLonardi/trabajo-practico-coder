@@ -24,6 +24,10 @@ main{
     width: 50vw;
 }
 
+#dropdown__smaller{
+    width: 25vw;
+}
+
 #simple-border{
     border: 1px solid black;
 
@@ -111,6 +115,27 @@ nav div{
 
 .search-bar a{
     margin-left: 1%;
+}
+.add-basket-product{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+.add-basket-product h3{
+    font-size: large;
+    font-style: italic;
+}
+
+.add-basket-product h5{
+    font-size: medium;
+    font-style: italic;
+}
+
+.add-basket-product img{
+    width: 25vw;
 }
 .login{
     font-size: 20px;
@@ -265,6 +290,9 @@ nav div{
         height: 300px;
         width: 200px;
     }
+    .add-basket-product img{
+        width: 40vw;
+    }
 }
 
 @media (max-width:650px){
@@ -305,6 +333,10 @@ nav div{
     #box3 button{
         height: 215px;
         width: 120px;
+    }
+
+    .add-basket-product img{
+        width: 50vw;
     }
 }
 
