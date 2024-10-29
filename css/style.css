@@ -51,6 +51,9 @@ a{
 .initial-page h1{
     text-align: left;
 }
+.initial-page{
+    padding-left: 1%;
+}
 
 body{
     font-size: large !important; 
@@ -134,8 +137,8 @@ nav div{
 }
 .item{
     margin-top: 1%;
-    margin-left: 1%;
 }
+
 
 .add-basket-product{
     display: flex;
@@ -168,7 +171,6 @@ nav div{
 }
 #Remember-my-Selection{
     margin-top: 1px;;
-    margin-left: 1%;
     width: 20px;
     height: 20px;
 }
