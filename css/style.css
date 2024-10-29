@@ -34,8 +34,8 @@ main{
 }
 
 #simple-border{
-    border: 2px solid black;
-    margin-bottom: 4%;
+    border: 1px solid black;
+    margin-bottom: 2vh;
 
 }
 header h1{
@@ -179,7 +179,7 @@ nav div{
 }
 
 .shopping-page{
-    padding-top: 5%;
+    padding-top: 1%;
 }
 .container-article{
     padding-top: 1%;
@@ -189,7 +189,7 @@ nav div{
     background-color: gainsboro;
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 
