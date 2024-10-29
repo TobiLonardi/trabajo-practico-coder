@@ -128,6 +128,15 @@ nav div{
 .search-bar a{
     margin-left: 1%;
 }
+.welcomepage-container{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
 .add-basket-product{
     display: flex;
     flex-direction: column;
@@ -158,7 +167,8 @@ nav div{
 
 }
 #Remember-my-Selection{
-    margin-top: 20px;;
+    margin-top: 1px;;
+    margin-left: 1%;
     width: 20px;
     height: 20px;
 }
