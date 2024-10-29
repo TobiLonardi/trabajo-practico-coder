@@ -13,9 +13,7 @@ header{
     padding-bottom: 1%;
     background-color: wheat;
 }
-.dropdown{
-    
-}
+
 .dropdown__browser{
     display: flex;
     align-items: baseline;
