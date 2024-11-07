@@ -1,0 +1,27 @@
+.login-page{
+    padding-left: 1%;
+}
+
+.login{
+    font-size: 20px;
+    
+    input{
+        border: 1px solid black;
+        background-color: $secondary-color;
+    }
+
+    div{
+        padding-right: 30%;
+    }
+
+    button{
+        background-color: $primary-color;
+    }
+}
+
+.error{
+    color: red;
+}
+.error--text_area{
+    border-color: red !important;
+}
