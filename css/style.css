@@ -65,7 +65,7 @@ body button {
   font-weight: 300;
   padding-top: 6px;
   padding-bottom: 6px;
-  background-color: whitesmoke;
+  background-color: gainsboro;
 }
 
 #dropdown {
@@ -103,7 +103,7 @@ body button {
 }
 .login input {
   border: 1px solid black;
-  background-color: whitesmoke;
+  background-color: gainsboro;
 }
 .login div {
   padding-right: 30%;
@@ -147,7 +147,7 @@ body button {
 
 .search-bar--area {
   border: 1px solid black !important;
-  background-color: whitesmoke !important;
+  background-color: gainsboro !important;
 }
 
 .welcomepage-container {
