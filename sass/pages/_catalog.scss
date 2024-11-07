@@ -10,6 +10,8 @@
     padding: 0 5%;
 
     margin-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .box{
@@ -51,10 +53,7 @@
 }
 
 @media (max-width:650px) and (min-width:420px){
-    .container-article{
-        padding-left: 2%;
-        padding-right: 2%;
-    }
+    
 
     .catalog{
         width:100%;

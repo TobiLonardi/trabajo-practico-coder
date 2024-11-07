@@ -139,17 +139,12 @@ body button {
   font-style: italic;
 }
 .add-basket-product img {
-  width: 25vw;
+  width: 28vw;
 }
 
 @media (max-width: 650px) {
   .add-basket-product img {
     width: 50vw;
-  }
-}
-@media (max-width: 1200px) {
-  .add-basket-product img {
-    width: 40vw;
   }
 }
 .shopping-page {
@@ -163,6 +158,8 @@ body button {
   background-color: gainsboro;
   padding: 0 5%;
   margin-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .box {
@@ -198,10 +195,6 @@ body button {
   }
 }
 @media (max-width: 650px) and (min-width: 420px) {
-  .container-article {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
   .catalog {
     width: 100%;
   }

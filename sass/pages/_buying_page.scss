@@ -17,11 +17,11 @@
     }
 
     img{
-        width: 25vw;
+        width: 28vw;
     }
 }
 
-@media (max-width:650px){
+@media (max-width:650px) {
     
     .add-basket-product{
         img{
@@ -30,12 +30,3 @@
     }
 }
 
-@media (max-width:1200px){
-    
-
-    .add-basket-product{
-        img{
-            width: 40vw;
-        }
-    }
-}
