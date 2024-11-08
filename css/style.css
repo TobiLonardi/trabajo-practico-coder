@@ -325,6 +325,10 @@ body button {
   text-align: left;
 }
 
+.dropdown-selector {
+  width: 50vw;
+}
+
 .generos {
   width: 1230px;
 }
