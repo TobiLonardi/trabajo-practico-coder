@@ -1,12 +1,12 @@
+@import"../functions.scss";
+
 .shopping-page{
     padding-top: 1%;
 }
 
 .container-article{
     padding-top: 1%;
-    display: flex;
-    justify-content: space-between;
-    background-color: $secondary-color;
+    @include flex-box-creator(row,space-between,center,$secondary-color);
     padding: 0 5%;
 
     margin-top: 1%;
@@ -18,6 +18,7 @@
     margin-bottom: 5%;
     padding: 10px;
     border: 3px solid black;
+    background-color: $primary-color;
     button{
         width: 40%;
         padding-right: 4%;

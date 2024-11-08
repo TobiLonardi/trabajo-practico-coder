@@ -1,3 +1,5 @@
+@import"../functions.scss";
+
 .initial-page{
     padding-left: 1%;
     h1{
@@ -10,8 +12,7 @@
 }
 
 .welcomepage-container{
-    display: flex;
-    flex-direction: column;
+    @include flex-box-creator(column,center,start,$primary-color);
 }
 
 .item{
@@ -20,11 +21,7 @@
 
 .container-article__genres{
     padding-top: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: start;
-    background-color: $secondary-color;
+    @include flex-box-creator(row,space-around,start,$secondary-color);
 }
 
 .box__genres{

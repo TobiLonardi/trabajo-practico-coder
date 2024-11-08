@@ -22,6 +22,8 @@
 .error{
     color: red;
 }
-.error--text_area{
-    border-color: red !important;
+.login{
+    .error--text_area{
+        border-color: red ;
+    }
 }

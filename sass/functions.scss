@@ -1,0 +1,7 @@
+@mixin flex-box-creator($direction, $justify-content, $align-item, $background-color){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-item;
+    background-color: $background-color;
+}

@@ -70,8 +70,10 @@ body button {
 
 .search-bar {
   display: flex;
-  align-items: baseline;
+  flex-direction: row;
   justify-content: end;
+  align-items: baseline;
+  background-color: gainsboro;
   margin-right: 2%;
 }
 .search-bar img {
@@ -83,8 +85,8 @@ body button {
 }
 
 .search-bar--area {
-  border: 1px solid black !important;
-  background-color: gainsboro !important;
+  border: 1px solid black;
+  background-color: wheat;
 }
 
 @media (max-width: 370px) {
@@ -125,6 +127,9 @@ body button {
 .add-basket-product {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: gainsboro;
   width: 50vw;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -154,7 +159,9 @@ body button {
 .container-article {
   padding-top: 1%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: gainsboro;
   padding: 0 5%;
   margin-top: 1%;
@@ -166,6 +173,7 @@ body button {
   margin-bottom: 5%;
   padding: 10px;
   border: 3px solid black;
+  background-color: wheat;
 }
 .box button {
   width: 40%;
@@ -256,8 +264,8 @@ body button {
   color: red;
 }
 
-.error--text_area {
-  border-color: red !important;
+.login .error--text_area {
+  border-color: red;
 }
 
 .initial-page {
@@ -274,6 +282,9 @@ body button {
 .welcomepage-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: wheat;
 }
 
 .item {

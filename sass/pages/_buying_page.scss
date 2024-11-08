@@ -1,6 +1,7 @@
+@import"../functions.scss";
+
 .add-basket-product{
-    display: flex;
-    flex-direction: column;
+    @include flex-box-creator(column,center,start,$secondary-color);
     width: 50vw;
     padding-top: 1%;
     padding-bottom: 1%;
