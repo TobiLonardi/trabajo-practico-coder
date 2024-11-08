@@ -30,7 +30,7 @@
         background-color: $primary-color;
         img{
             height: 60vw;
-            border: 2px black solid;
+            @extend .medium-border;
             margin-bottom: 5%;
         }
     }

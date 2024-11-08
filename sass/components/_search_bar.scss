@@ -15,7 +15,7 @@
 }
 
 .search-bar--area{
-    border: 1px solid black;
+    @extend .medium-border;
     background-color: $primary-color;
 }
 

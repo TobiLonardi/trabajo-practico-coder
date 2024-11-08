@@ -1,3 +1,5 @@
+@import"../functions.scss";
+
 #dropdown{
     width: 50vw;
 }
@@ -7,7 +9,7 @@
 }
 
 #simple-border{
-    border: 1px solid black;
+    @extend .small-border;
     margin-bottom: 2vh;
 }
 

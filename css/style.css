@@ -1,3 +1,11 @@
+.small-border, .login input, .box-img, #simple-border, header {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, .search-bar--area, body footer {
+  border: 2px solid black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +14,6 @@
 
 header {
   background-color: gainsboro;
-  border: 1px solid black;
 }
 header h1 {
   color: black;
@@ -48,7 +55,6 @@ body nav div {
 body footer {
   background-color: rgb(248, 219, 166);
   margin-top: 5%;
-  border: 2px solid black;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -68,6 +74,14 @@ body button {
   background-color: gainsboro;
 }
 
+.small-border, .login input, .box-img, #simple-border, header {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, .search-bar--area, body footer {
+  border: 2px solid black;
+}
+
 .search-bar {
   display: flex;
   flex-direction: row;
@@ -85,7 +99,6 @@ body button {
 }
 
 .search-bar--area {
-  border: 1px solid black;
   background-color: wheat;
 }
 
@@ -98,6 +111,14 @@ body button {
     padding: 1px 0px;
   }
 }
+.small-border, .login input, .box-img, #simple-border, header {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, body footer, .search-bar--area {
+  border: 2px solid black;
+}
+
 #dropdown {
   width: 50vw;
 }
@@ -107,7 +128,6 @@ body button {
 }
 
 #simple-border {
-  border: 1px solid black;
   margin-bottom: 2vh;
 }
 
@@ -122,6 +142,14 @@ body button {
   padding-left: 2%;
   background-color: gainsboro;
   text-align: center;
+}
+
+.small-border, .login input, .box-img, header, #simple-border {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, body footer, .search-bar--area {
+  border: 2px solid black;
 }
 
 .add-basket-product {
@@ -152,6 +180,14 @@ body button {
     width: 50vw;
   }
 }
+.small-border, .login input, .box-img, header, #simple-border {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, body footer, .search-bar--area {
+  border: 2px solid black;
+}
+
 .shopping-page {
   padding-top: 1%;
 }
@@ -182,7 +218,6 @@ body button {
 }
 
 .box-img {
-  border: 2px black solid;
   height: 410px;
   width: 320px;
 }
@@ -224,7 +259,7 @@ body button {
     width: 60%;
   }
   .box h4 {
-    font-size: small;
+    font-size: medium;
     font-style: italic;
     font-weight: bold;
     padding-bottom: 2%;
@@ -242,6 +277,14 @@ body button {
     width: 170px;
   }
 }
+.small-border, .login input, header, #simple-border, .box-img {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, body footer, .search-bar--area {
+  border: 2px solid black;
+}
+
 .login-page {
   padding-left: 1%;
 }
@@ -250,7 +293,6 @@ body button {
   font-size: 20px;
 }
 .login input {
-  border: 1px solid black;
   background-color: gainsboro;
 }
 .login div {
@@ -266,6 +308,14 @@ body button {
 
 .login .error--text_area {
   border-color: red;
+}
+
+.small-border, header, #simple-border, .box-img, .login input {
+  border: 1px solid black;
+}
+
+.medium-border, .box__genres button img, body footer, .search-bar--area {
+  border: 2px solid black;
 }
 
 .initial-page {
@@ -306,7 +356,6 @@ body button {
 }
 .box__genres button img {
   height: 60vw;
-  border: 2px black solid;
   margin-bottom: 5%;
 }
 .box__genres h2 {
