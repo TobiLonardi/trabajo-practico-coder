@@ -31,6 +31,16 @@
     width: 320px;
 }
 
+.animation-item-rotation{
+    transition-duration: 1s;
+    transition-delay: 10ms;
+    transition-property: transform;
+    transition-timing-function:ease;
+}
+
+.animation-item-rotation:hover{
+    transform: rotateY(360deg)
+}
 
 @media (max-width:420px){
     .box{

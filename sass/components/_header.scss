@@ -1,0 +1,18 @@
+@import"../functions.scss";
+
+.main-header{
+    background-color: $secondary-color;
+    margin-bottom: 2%;
+    @extend .small-border;
+    h1{
+        color: black;
+        font-size: 42px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+.section-divider{
+    background-color: $secondary-color;
+}
+
+
