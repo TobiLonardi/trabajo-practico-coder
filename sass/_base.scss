@@ -7,16 +7,18 @@ $secondary-color: gainsboro;
     box-sizing: border-box;
 }
 
-header{
+.main-header{
     background-color: $secondary-color;
+    margin-bottom: 2%;
     @extend .small-border;
     h1{
         color: black;
-        font-size: 60px;
+        font-size: 42px;
         text-align: center;
         font-weight: bold;
     }
 }
+
 
 body{
     font-size: large !important; 
@@ -28,13 +30,13 @@ body{
     position: relative;
     min-height: 100vh;
     padding-bottom: 10em;
-
+    
     main{
         background-color: $primary-color;
     }
 
     a{
-        text-decoration: none !important;
+        text-decoration: none ;
     }
 
     nav{
@@ -49,9 +51,6 @@ body{
         height: 40PX;
         }
 
-        div{
-            margin-top: 30px;
-        }
     }
 
     footer{
@@ -83,4 +82,6 @@ body{
     }
 }
 
-
+.section-divider{
+    background-color: $secondary-color;
+}

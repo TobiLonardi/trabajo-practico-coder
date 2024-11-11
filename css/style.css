@@ -1,4 +1,4 @@
-.small-border, .login input, .box-img, #simple-border, header {
+.small-border, .login input, .box-img, #simple-border, .main-header {
   border: 1px solid black;
 }
 
@@ -12,12 +12,13 @@
   box-sizing: border-box;
 }
 
-header {
+.main-header {
   background-color: gainsboro;
+  margin-bottom: 2%;
 }
-header h1 {
+.main-header h1 {
   color: black;
-  font-size: 60px;
+  font-size: 42px;
   text-align: center;
   font-weight: bold;
 }
@@ -37,7 +38,7 @@ body main {
   background-color: wheat;
 }
 body a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 body nav select {
   font-size: medium;
@@ -48,9 +49,6 @@ body nav select {
   font-style: normal;
   width: 400PX;
   height: 40PX;
-}
-body nav div {
-  margin-top: 30px;
 }
 body footer {
   background-color: rgb(248, 219, 166);
@@ -74,7 +72,11 @@ body button {
   background-color: gainsboro;
 }
 
-.small-border, .login input, .box-img, #simple-border, header {
+.section-divider {
+  background-color: gainsboro;
+}
+
+.small-border, .login input, .box-img, #simple-border, .main-header {
   border: 1px solid black;
 }
 
@@ -111,7 +113,7 @@ body button {
     padding: 1px 0px;
   }
 }
-.small-border, .login input, .box-img, #simple-border, header {
+.small-border, .login input, .box-img, #simple-border, .main-header {
   border: 1px solid black;
 }
 
@@ -144,7 +146,7 @@ body button {
   text-align: center;
 }
 
-.small-border, .login input, .box-img, header, #simple-border {
+.small-border, .login input, .box-img, .main-header, #simple-border {
   border: 1px solid black;
 }
 
@@ -180,7 +182,7 @@ body button {
     width: 50vw;
   }
 }
-.small-border, .login input, .box-img, header, #simple-border {
+.small-border, .login input, .box-img, .main-header, #simple-border {
   border: 1px solid black;
 }
 
@@ -191,22 +193,20 @@ body button {
 .shopping-page {
   padding-top: 1%;
 }
+.shopping-page h2 {
+  padding: 1% 1%;
+}
 
 .container-article {
-  padding-top: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: gainsboro;
-  padding: 0 5%;
-  margin-top: 1%;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 2%;
 }
 
 .box {
-  margin-bottom: 5%;
   padding: 10px;
   border: 3px solid black;
   background-color: wheat;
@@ -277,7 +277,7 @@ body button {
     width: 170px;
   }
 }
-.small-border, .login input, header, #simple-border, .box-img {
+.small-border, .login input, .main-header, #simple-border, .box-img {
   border: 1px solid black;
 }
 
@@ -310,7 +310,7 @@ body button {
   border-color: red;
 }
 
-.small-border, header, #simple-border, .box-img, .login input {
+.small-border, .main-header, #simple-border, .box-img, .login input {
   border: 1px solid black;
 }
 
@@ -338,7 +338,7 @@ body button {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background-color: wheat;
+  background-color: gainsboro;
 }
 
 .item {

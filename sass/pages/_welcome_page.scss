@@ -11,12 +11,13 @@
     width: 50vw;
 }
 
+
 .generos{
     width: 1230px;
 }
 
 .welcomepage-container{
-    @include flex-box-creator(column,center,start,$primary-color);
+    @include flex-box-creator(column,center,start,$secondary-color);
 }
 
 .item{
