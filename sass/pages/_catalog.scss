@@ -10,6 +10,7 @@
 .container-article{
     @include flex-box-creator(row,space-between,center,$secondary-color);
     padding: 2%;
+    @extend .medium-border;
 
     
 }

@@ -7,15 +7,13 @@ $secondary-color: gainsboro;
     box-sizing: border-box;
 }
 
-
-
-body{
-    font-size: large !important; 
-    font-style: italic  !important;
-    font-family: "Playwrite DE Grund", cursive !important;
+.main-body{
+    font-size: large ; 
+    font-style: italic;
+    font-family: "Playwrite DE Grund", cursive ;
     font-optical-sizing: auto;
-    font-weight:300 !important;
-    background-color: $primary-color !important ;
+    font-weight:300 ;
+    background-color: $primary-color  ;
     position: relative;
     min-height: 100vh;
     padding-bottom: 10em;
@@ -43,7 +41,7 @@ body{
     }
 
     footer{
-        background-color: rgb(248, 219, 166);
+        background-color: $primary-color;
         margin-top: 5%;
         @extend .medium-border;
         position: absolute;
@@ -70,5 +68,6 @@ body{
         background-color: $secondary-color;
     }
 }
+
 
 

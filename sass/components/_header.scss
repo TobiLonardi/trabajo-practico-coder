@@ -13,6 +13,8 @@
 }
 .section-divider{
     background-color: $secondary-color;
+    @extend .medium-border;
+
 }
 
 
