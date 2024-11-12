@@ -29,16 +29,6 @@
 .main-body a {
   text-decoration: none;
 }
-.main-body nav select {
-  font-size: medium;
-  font-style: italic;
-  font-family: "Playwrite DE Grund", cursive;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  width: 400PX;
-  height: 40PX;
-}
 .main-body footer {
   background-color: wheat;
   margin-top: 5%;
@@ -49,6 +39,7 @@
 .main-body footer div img {
   height: 5vh;
   width: 5vh;
+  margin: 1%;
 }
 .main-body button {
   margin-top: 10px;
@@ -139,13 +130,19 @@
 .add-basket-product h3 {
   font-size: large;
   font-style: italic;
+  margin-bottom: 3%;
 }
 .add-basket-product h5 {
   font-size: medium;
   font-style: italic;
+  margin-bottom: 3%;
 }
 .add-basket-product img {
   width: 28vw;
+  margin-bottom: 1%;
+}
+.add-basket-product button {
+  margin-top: 10%;
 }
 
 @media (max-width: 650px) {
@@ -309,6 +306,13 @@
 
 .dropdown-selector {
   width: 50vw;
+  font-size: medium;
+  font-style: italic;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  height: 40PX;
 }
 
 .generos {
@@ -321,6 +325,9 @@
   justify-content: center;
   align-items: start;
   background-color: gainsboro;
+}
+.welcomepage-container button {
+  margin-bottom: 10%;
 }
 
 .item {
