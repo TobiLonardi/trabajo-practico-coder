@@ -21,7 +21,7 @@
   background-color: wheat;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 10em;
+  padding-bottom: 14em;
 }
 .main-body main {
   background-color: wheat;
@@ -37,7 +37,7 @@
   width: 100%;
 }
 .main-body footer div img {
-  width: 6vw;
+  width: 5vw;
   margin: 1%;
 }
 .main-body button {
@@ -51,6 +51,11 @@
   background-color: gainsboro;
 }
 
+@media (max-width: 650px) {
+  .main-body {
+    padding-bottom: 6em;
+  }
+}
 .small-border, .login input, .box-img, #simple-border, .main-header {
   border: 1px solid black;
 }

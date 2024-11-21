@@ -17,7 +17,8 @@ $secondary-color: gainsboro;
     background-color: $primary-color ;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 10em;
+    padding-bottom: 14em;
+
 
     main {
         background-color: $primary-color;
@@ -39,7 +40,7 @@ $secondary-color: gainsboro;
         div {
 
             img {
-                width: 6vw;
+                width: 5vw;
                 margin: 1%;
             }
         }
@@ -54,5 +55,12 @@ $secondary-color: gainsboro;
         padding-top: 6px;
         padding-bottom: 6px;
         background-color: $secondary-color;
+    }
+}
+
+
+@media (max-width:650px){
+    .main-body{
+        padding-bottom: 6em;
     }
 }
