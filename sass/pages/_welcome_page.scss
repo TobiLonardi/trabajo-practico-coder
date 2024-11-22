@@ -45,9 +45,9 @@
         width: 45vw;
         background-color: $primary-color;
         img{
-            height: 60vw;
             @extend .medium-border;
             margin-bottom: 5%;
+            width: 40vw;
         }
     }
 
@@ -55,5 +55,33 @@
         margin-top: 1%;
         margin-bottom: 1%;
         
+    }
+}
+
+@media (max-width:650px) {
+    .container-article__genres{
+        padding-top: 1%;
+        @include flex-box-creator(column,space-around,center,$secondary-color);
+        margin-bottom: 4vw;
+    }
+
+    .box__genres{
+        button{
+            width: 80vw;
+            background-color: $primary-color;
+            img{
+                width: 70vw;
+                @extend .medium-border;
+                margin-bottom: 5%;
+                
+            }
+            margin-bottom: 5%;
+        }
+    
+        h2{
+            margin-top: 1%;
+            margin-bottom: 1%;
+            
+        }
     }
 }

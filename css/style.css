@@ -21,7 +21,7 @@
   background-color: wheat;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 14em;
+  padding-bottom: 10em;
 }
 .main-body main {
   background-color: wheat;
@@ -36,9 +36,12 @@
   bottom: 0;
   width: 100%;
 }
+.main-body footer h2 {
+  padding-left: 4px;
+}
 .main-body footer div img {
-  width: 5vw;
-  margin: 1%;
+  width: 50px;
+  margin: 4px;
 }
 .main-body button {
   margin-top: 10px;
@@ -53,7 +56,7 @@
 
 @media (max-width: 650px) {
   .main-body {
-    padding-bottom: 6em;
+    padding-bottom: 8em;
   }
 }
 .small-border, .login input, .box-img, #simple-border, .main-header {
@@ -110,6 +113,8 @@
   padding-left: 2%;
   background-color: gainsboro;
   text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .small-border, .login input, .box-img, .main-header, #simple-border {
@@ -167,6 +172,7 @@
 }
 .shopping-page h2 {
   padding: 1% 1%;
+  font-weight: bold;
 }
 
 .container-article {
@@ -205,36 +211,38 @@
   transform: rotateY(360deg);
 }
 
-@media (max-width: 420px) {
-  .box button {
-    width: 100%;
-    font-size: small;
+@media (max-width: 650px) {
+  .container-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 2%;
   }
-  .box h4 {
-    font-size: small;
-    font-style: italic;
-    font-weight: bold;
-  }
-  .box-img {
-    height: 100px;
-    width: 80px;
-  }
-}
-@media (max-width: 650px) and (min-width: 420px) {
   .catalog {
     width: 100%;
+  }
+  .shopping-page {
+    padding-top: 1%;
+  }
+  .shopping-page h2 {
+    padding-top: 1%;
+    text-align: center;
+  }
+  .box {
+    margin: 5% 5%;
   }
   .box button {
     width: 80%;
   }
   .box h4 {
-    font-size: small;
+    font-size: large;
     font-style: italic;
     font-weight: bold;
   }
   .box-img {
-    height: 150px;
-    width: 110px;
+    width: 300px;
   }
 }
 @media (max-width: 1200px) and (min-width: 650px) {
@@ -353,12 +361,37 @@
   background-color: wheat;
 }
 .box__genres button img {
-  height: 60vw;
   margin-bottom: 5%;
+  width: 40vw;
 }
 .box__genres h2 {
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+@media (max-width: 650px) {
+  .container-article__genres {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gainsboro;
+    margin-bottom: 4vw;
+  }
+  .box__genres button {
+    width: 80vw;
+    background-color: wheat;
+    margin-bottom: 5%;
+  }
+  .box__genres button img {
+    width: 70vw;
+    margin-bottom: 5%;
+  }
+  .box__genres h2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
