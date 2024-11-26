@@ -196,7 +196,7 @@
 }
 
 .box-img {
-  height: 410px;
+  height: 480px;
   width: 320px;
 }
 
@@ -242,8 +242,8 @@
     font-weight: bold;
   }
   .box-img {
-    width: 300px;
-    height: 410px;
+    width: 320px;
+    height: 480px;
   }
 }
 @media (max-width: 1200px) and (min-width: 651px) {
