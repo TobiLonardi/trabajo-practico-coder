@@ -42,12 +42,12 @@
 
 .box__genres{
     button{
-        width: 45vw;
+        width: 35vw;
         background-color: $primary-color;
         img{
             @extend .medium-border;
             margin-bottom: 5%;
-            width: 40vw;
+            width: 30vw;
         }
     }
 

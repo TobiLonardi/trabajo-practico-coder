@@ -359,12 +359,12 @@
 }
 
 .box__genres button {
-  width: 45vw;
+  width: 35vw;
   background-color: wheat;
 }
 .box__genres button img {
   margin-bottom: 5%;
-  width: 40vw;
+  width: 30vw;
 }
 .box__genres h2 {
   margin-top: 1%;
