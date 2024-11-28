@@ -55,7 +55,7 @@
   border: 1px solid black;
 }
 
-.medium-border, .box__genres button img, .container-article, .container-article__buying-page, .add-basket-product, .section-divider, .main-body footer {
+.medium-border, .box__genres button img, .container-article, .buying-window .container-article__buying-page, .add-basket-product img, .add-basket-product, .section-divider, .main-body footer {
   border: 2px solid black;
 }
 
@@ -111,7 +111,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background-color: gainsboro;
+  background-color: wheat;
   width: 50vw;
   padding: 1%;
   margin: 2%;
@@ -142,8 +142,7 @@
   background-color: gainsboro;
   padding: 1%;
 }
-
-.container-article__buying-page {
+.buying-window .container-article__buying-page {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -154,13 +153,18 @@
   margin-top: 5%;
   width: 60vw;
 }
-.container-article__buying-page .item-img {
+.buying-window .container-article__buying-page .item-img {
   width: 20vw;
 }
 
 @media (max-width: 650px) {
   .add-basket-product {
     width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
   }
   .add-basket-product img {
     width: 50vw;
@@ -173,7 +177,7 @@
     background-color: gainsboro;
     padding-left: 3vw;
   }
-  .container-article__buying-page {
+  .buying-window .container-article__buying-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -181,7 +185,7 @@
     background-color: gainsboro;
     width: 90vw;
   }
-  .container-article__buying-page .item-img {
+  .buying-window .container-article__buying-page .item-img {
     width: 50vw;
   }
 }
