@@ -55,7 +55,7 @@
   border: 1px solid black;
 }
 
-.medium-border, .box__genres button img, .container-article, .buying-window .container-article__buying-page, .add-basket-product img, .add-basket-product, .section-divider, .main-body footer {
+.medium-border, .box__genres button img, .container-article, .buying-window .categories-menu .container-article__buying-page, .buying-window .categories-menu, .add-basket-product img, .add-basket-product, .section-divider, .main-body footer {
   border: 2px solid black;
 }
 
@@ -138,11 +138,18 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
-  align-items: start;
+  align-items: center;
   background-color: gainsboro;
   padding: 1%;
 }
-.buying-window .container-article__buying-page {
+.buying-window .categories-menu {
+  background-color: wheat;
+  width: 100vw;
+}
+.buying-window .categories-menu .subtitle {
+  background-color: wheat;
+}
+.buying-window .categories-menu .container-article__buying-page {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -153,8 +160,11 @@
   margin-top: 5%;
   width: 60vw;
 }
-.buying-window .container-article__buying-page .item-img {
+.buying-window .categories-menu .container-article__buying-page .item-img {
   width: 20vw;
+}
+.buying-window .categories-menu .container-article__buying-page .item-button {
+  width: 60%;
 }
 
 @media (max-width: 650px) {
@@ -177,7 +187,14 @@
     background-color: gainsboro;
     padding-left: 3vw;
   }
-  .buying-window .container-article__buying-page {
+  .buying-window .categories-menu {
+    background-color: wheat;
+    width: 93vw;
+  }
+  .buying-window .categories-menu .subtitle {
+    background-color: wheat;
+  }
+  .buying-window .categories-menu .container-article__buying-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,7 +202,7 @@
     background-color: gainsboro;
     width: 90vw;
   }
-  .buying-window .container-article__buying-page .item-img {
+  .buying-window .categories-menu .container-article__buying-page .item-img {
     width: 50vw;
   }
 }
