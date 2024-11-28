@@ -1,11 +1,12 @@
-@import"../functions.scss";
 
 .add-basket-product{
     @include flex-box-creator(column,center,start,$secondary-color);
     width: 50vw;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    padding: 1%;
+    margin: 2%;
+    @extend .medium-border;
+    
+
     
     h3{
         font-size:x-large;
@@ -29,11 +30,45 @@
     }
 }
 
+.buying-window{
+    @include flex-box-creator(row,start,start,$secondary-color);
+    padding: 1%;
+    
+}
+.container-article__buying-page{
+    @include flex-box-creator(row, space-between, center, $secondary-color);
+    padding: 2%;
+    margin: 1%;
+    margin-top: 5%;
+
+    @extend .medium-border;
+    width: 60vw;
+    .item-img{
+        width: 20vw;
+    }
+}
+
+
+
+
 @media (max-width:650px) {
     
     .add-basket-product{
+        width: 90vw;
+
         img{
         width: 50vw;
+        }
+    }
+    .buying-window{
+        @include flex-box-creator(column,start,start,$secondary-color);
+        padding-left: 3vw;
+    }
+    .container-article__buying-page{
+        @include flex-box-creator(column, space-between, center, $secondary-color);
+        width: 90vw;
+        .item-img{
+            width: 50vw;
         }
     }
 }
